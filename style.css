@@ -1,0 +1,80 @@
+
+body{
+    background-image: url("circular-halftone-dotted-golden-pattern-on-black-vector.jpg");
+    
+}
+.app{
+    
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.103);
+    -webkit-box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 1);
+-moz-box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 1);
+box-shadow: 0px 0px 28px 13px #000000;
+height: 50em;
+width: 40em;
+color: white;
+text-align: center;
+font-family: 'Roboto';
+border: 1px solid #bebebe;
+border-radius: 10px;
+position: absolute;
+  top: 50%; right: 50%;
+  transform: translate(50%,-50%);
+}
+
+.btn, #dalej-btn{
+    background-color: #c7c7c710;
+transition: background-color 150ms linear 0s;
+    color: #f7f7f7;
+    font-size: 1.2em;
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 1px solid #2e2e2e;
+    transition: border 200ms ease 0s;
+    border-radius: 10px;
+    display: fixed;
+    margin: 6px;
+
+   }
+   .btn:hover{
+    filter: brightness(90%);
+    border: 1px solid #ffffff;
+   }
+   .btn:active{
+    transform: scale(0.95);
+   }
+#dalej-btn{
+
+    position: absolute;
+  top: 90%; right: 50%;
+  transform: translate(50%,-50%);
+    
+}
+
+
+   img{ padding: 4%;
+    border-top: 1px solid #ffffff;
+   }
+
+h1{
+    font-size: 4em;
+    
+
+}
+.quiz{
+    margin: 4em;
+}
+
+#pytanie{
+    font-weight: 300;
+    
+    
+}
+.correct{
+    background-color: #04ca11;
+}
+.incorrect{
+    background-color: red;
+}

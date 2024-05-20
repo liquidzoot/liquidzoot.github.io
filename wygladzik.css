@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("circular-halftone-dotted-golden-pattern-on-black-vector.jpg");
+    background-color: #f0f0f0;
+}
+
+#header {
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+    /* nowa czcionka */
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    /* nowa czcionka */
+    text-shadow: 0px 0px 2px black;
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 1px solid #2e2e2e;
+    transition: border 200ms ease 0s;
+    border-radius: 10px;
+    display: fixed;
+    margin: 6px;
+    /* cień czarny */
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    /* odstęp między kwadratami */
+    justify-content: center;
+    /* wycentrowanie kwadratów */
+    margin-top: 40px;
+}
+
+.quizLink {
+    width: 400px;
+    /* szerokość kwadratu */
+    height: 400px;
+    /* wysokość kwadratu */
+    background-size: cover;
+    /* skalowanie obrazu tła */
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+    /* kolor czcionki */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white;
+    /* biała ramka */
+    border-radius: 20px;
+    /* zaokrąglenie ramki */
+    text-shadow: 3px 3px 0 black;
+    /* czarne obramowanie tekstu */
+    font-family: 'Roboto', sans-serif;
+    /* nowa czcionka */
+}
+
+.quizLink:hover {
+    background-color: #5a025a;
+}
+
+#footer {
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    /* nowa czcionka */
+}
+
+.ramka {
+    height: 700px;
+    width: 1500px;
+    box-shadow: 0 0 10px white;
+}
