@@ -260,8 +260,7 @@ Array.from(answerButton.children).forEach(button => {
     // Funkcja wyświetlająca wynik końcowy
 function showScore(){ // na showscore odpala resetstate i pokazuje tekst
 resetState(); // wywoluje resetstate aby usunac przyciski bo przygotowuje do pokazania do pokazania wyniku 
-questionElement.innerHTML = `Zdobyłeś ${score} punktów na ${pytania.length
-length}!`; // pokazuje uzytkownikowi ile punktow na ile mozliwych 
+questionElement.innerHTML = `Zdobyłeś ${score} punktów na ${pytania.length}!`; // pokazuje uzytkownikowi ile punktow na ile mozliwych 
 dalejButton.innerHTML = "Zagraj jeszcze raz"; // zmienia przycisk dalej na przycisk zagraj jeszcze raz 
 dalejButton.style.display = "block"; // wyswietla przycisk dalej aby moc zresetowac quiz
                 }
